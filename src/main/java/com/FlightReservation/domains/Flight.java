@@ -6,7 +6,7 @@ import java.sql.Timestamp;
 import java.util.Date;
 
 @Entity
-public class Flight {
+public class Flight extends AbstractEntity{
 
     private String flightNumber;
     private String operatingAirlines;
